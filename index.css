@@ -1,0 +1,667 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Start Header */
+
+/* Start Nav Bar */
+
+header{
+    background-image: url('images/knitting-925080_960_720.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+nav{
+    background-color:rgba(0,0 , 0, 0.4);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.logo{
+    margin-left: 80px;
+}
+.logo h1{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 6px;
+    transition-timing-function: cubic-bezier(.175,.885,.32,1.275);
+    transition-duration: 1s;
+    cursor: pointer;
+    font-size: 35px;
+    color: #2B3A2D;
+}
+.logo h1:hover{
+    transition: 1s;
+    font-size: 35px;
+    color: #2e7a8d;
+}
+.logo h5{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    transition-timing-function: cubic-bezier(.175,.885,.32,1.275);
+    transition-duration: 1s;
+    cursor: pointer;
+    color: #2B3A2D;
+}
+.logo h5:hover{
+    transition: 1;
+    color: #2e7a8d;
+}
+.links{
+    margin-right: 40px;
+}
+header a{
+    margin: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-bottom: 3px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+    color: #2B3A2D;
+    text-decoration: none;
+}
+.nav1{
+    border-bottom: 2px solid #2e7a8d;
+}
+header a:hover{
+    transition: 1s;
+    border-bottom: 2px solid #2e7a8d;
+    font-size: 17px;
+}
+
+/* End Nav bar */
+
+/* Start Header part2 */
+
+.HeaderP2{
+    display: flex;
+    margin-top: 7.5%;
+    margin-left: 80px;
+}
+.gift h1,p{
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.gift p{
+    line-height: 25px;
+    cursor:text;
+}
+.gift h1:hover{
+    transition: 1s;
+    color: #2e7a8d;
+    font-size: 30px;
+}
+.follow h3{
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.socialmedia{
+    margin-top: 10px;
+}
+.socialmedia i{
+    background-color: #2B3A2D;
+    border-radius: 50%;
+    border: 0.5px solid #2e7a8d;
+    padding: 5px;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.socialmedia i:hover{
+    transition: 1s;
+    background-color:white;
+    color: #2B3A2D;
+}
+.btn1,.btn2{
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    color: #2B3A2D;
+}
+.btn1{
+    background-color: #2B3A2D;
+    color: white;
+}
+.btn1:hover{
+    transition: 1s;
+    background-color:white ;
+    color: #2B3A2D;
+}
+.btn2:hover{
+    transition: 1s;
+    background-color: #2B3A2D;
+    color: white;
+}
+.search{
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.fas-edit1{
+    background-color: #2B3A2D;
+    border-radius: 50%;
+    border: 0.5px solid #2e7a8d;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.fas-edit1:hover{
+    transition: 1s;
+    background-color:white ;
+    color: #2B3A2D;
+}
+.search input{
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.search2{
+    border:none;
+    border-bottom: 2px solid #2B3A2D;
+    width:350px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+}
+.search2:focus{
+    border: 2px solid #2e7a8d;
+}
+
+/* End Header part2 */
+
+/* End Header */ 
+
+
+/* Start Ctegories List */
+.categories{
+    background-color: rgba(0,0 , 0, 0.4);
+}
+.mainCat1 h1, .categories h1{
+    text-align: center;
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+.CList:hover{
+    color: #2e7a8d;
+    transition: 1s;
+    font-size: 35px;
+}
+.mainCat1 h1:hover{
+    color: white;
+    transition: 1s;
+}
+.cat1{
+    display: flex;
+    margin-left: 80px;
+    height: 300px;
+    align-items: center;
+    width:fit-content;
+    background-color: rgba(0,0 , 0, 0.1);
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.img2{
+    height: 205px;
+    width: 200px;
+    cursor: pointer;
+}
+.img1:hover, .img2:hover{
+    transition: 1s;
+    animation: rotate 2s infinite;
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(45deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+.buyProduct{
+    margin-left: 150px;
+}
+.lastPrice{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    animation: decoration 2s infinite;
+    cursor: pointer;
+}
+@keyframes decoration{
+    0%{
+        text-decoration: none;  
+    }
+    50%{
+        text-decoration: line-through;
+    }
+    100%{
+        text-decoration: none;
+    }
+}
+.lastPrice:hover{
+    font-size: 25px;
+    transition: 1s;
+}
+.newPrice{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.buyButton{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.buyButton i,.cart i{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #2B3A2D;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.buy,.cart2{
+    font-size: 12px;
+    padding: 8px;
+    font-weight: 400;
+    width: 70px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    background-color: #2B3A2D;
+    color: white;
+    margin-left: 15px;
+}
+.cart2{
+    width: 100px;
+}
+.buy:hover,.cart2:hover{
+    transition: 1s;
+    font-size: 15px;
+    background-color:white ;
+    color: #2B3A2D;
+}
+.productinfo{
+    margin-left: 100px;
+}
+.productinfo h3{
+    text-align: center;
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+/* End Categories List */
+
+
+
+/* Start SignUp */
+
+.mainSign{
+    display: flex;
+}
+.join{
+    margin-top: 250px;
+    margin-left: 200px;
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    animation: adjust 2s infinite;
+}
+.join:hover{
+    font-size: 38px;
+    transition: 1.5s;
+    color: #2e7a8d;   
+}
+@keyframes adjust{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.signup{
+    height:480px ;
+    width: 500px;
+    background-color: rgba(0,0 , 0, 0.4);
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.signup p{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+}
+.no1,.no2,.no3{
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    outline: none;
+}
+.no4{
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+.no4 label{
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+}
+.signup a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 2px;
+}
+.signup a:hover{
+    text-decoration: none;
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+}
+.btn3{
+    margin-left: 220px;
+    font-size: 15px;
+    background-color: #2B3A2D;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans', sans-serif;
+}
+.btn3:hover{
+    background-color: white;
+    transition: 1s;
+}
+.signup h1{
+    text-align: center;
+    color: #2B3A2D;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.signup h1:hover{
+    color: #2e7a8d;
+    transition: 1s;
+    font-size: 35px;
+}
+/* End SignUp */
+
+/* Start CONTACT US */
+.contact{
+    background-color: rgba(0,0 , 0, 0.4);
+}
+.contact h1{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color:#2B3A2D ;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.contact h1:hover{
+    font-size: 50px;
+    transition: 1s;
+    color: #2e7a8d;
+}
+.container1{
+    display: flex;
+}
+.connect{
+    text-align: center;
+    margin-left: 30px;
+    padding: 0% 10%; 
+}
+.connect i{
+    font-size: 26px;
+    color: #ffffff;
+    width: 74px;
+    height: 74px;
+    line-height: 74px;
+    background: #2B3A2D;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.connect i:hover{
+    transition: 1s;
+    background-color: white;
+    color: #2B3A2D;
+}
+.adjust ,.mail{
+    color: #2B3A2D;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.container1 p{
+    font-size: 15px;
+
+}
+.mail:hover, .mail1:hover{
+    transition: 1s;
+    color: white;
+    cursor: pointer;
+}
+.input{
+    margin-top: 50px;
+    padding: 0% 10%;
+}
+.input1, .input2{
+    padding: 0% 3%;
+    width: 280px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #2B3A2D;
+    outline: none;
+    border-radius: 10px;
+}
+.input1:focus, .input2:focus, .input3:focus{
+    border:  2px solid #BFDEFF;
+}
+.input2{
+    margin-left: 65px;
+}
+.input3{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid #2B3A2D;
+    outline: none;
+    border-radius: 10px;
+}
+.btn{
+    margin-top: 35px;
+    width: 25%;
+    font-size: 17px;
+    padding: 11px 0px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #2B3A2D;
+    transition: 0.5s;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover{
+    background-color: white;
+    color: #2B3A2D;
+    cursor: pointer;
+    transition: 1s;
+}
+/* End CONTACT US */
+
+
+
+/* Start footer */
+footer{
+    background-color:rgba(0, 0, 0, 0.4);
+    
+}
+.container2{
+    display: flex;
+    padding: 5% 12%;
+}
+.navlinks h4{
+    color:  #2B3A2D;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.navlinks ul li{
+    color: #2B3A2D;
+    list-style: none;
+    margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.navlinks ul li:hover{
+    color:  white;
+    transition: 1s;
+    cursor: pointer;
+}
+.ourproducts{
+    padding-left: 28%;
+}
+.ourproducts h4{
+    color:  #2B3A2D;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.ourproducts img{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+}
+.ourtimes{
+    padding-left: 12%;
+}
+.ourtimes h4{
+    color:  #2B3A2D;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.ourtimes input{
+    width: 280px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #2B3A2D;
+    outline: none;
+    background-color:  rgba(0,0 , 0, 0.4);
+}
+.ourtimes input::placeholder{
+    color: white;
+}
+.finalpart{
+    text-align: center;
+}
+.finalpart p{
+    color: #2B3A2D;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.finalpart span{
+    color: #2e7a8d;
+}
+.finalpart span:hover{
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.socialmedia2 i{
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px;
+    background: #2B3A2D;
+    border-radius: 50%;
+    text-align: center;
+    margin:5px ;
+}
+.socialmedia2 i:hover{
+    cursor: pointer;
+    color: #2B3A2D;
+    background-color: white;
+    transition: 1s;
+}
+/* End footer */
